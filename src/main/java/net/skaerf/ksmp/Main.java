@@ -35,7 +35,6 @@ public class Main extends JavaPlugin implements Listener {
 
             @Override
             public void run() {
-                System.out.println("runnable go bing bong");
                 i = 0;
                 actionBarScheduler = Bukkit.getScheduler().scheduleSyncRepeatingTask(Main.getPlugin(Main.class), () -> {
                     for (Player online : Bukkit.getOnlinePlayers()) {
