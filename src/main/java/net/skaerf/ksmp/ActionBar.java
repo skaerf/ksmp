@@ -87,12 +87,8 @@ public class ActionBar {
                 public void run() {
                     sendActionBar(player, message);
                 }
-            }.runTaskLater(plugin, (long) duration);
+            }.runTaskLater(plugin, duration);
         }
-    }
-
-    public static void sendActionBarToAllPlayers(String message) {
-        sendActionBarToAllPlayers(message, -1);
     }
 
     public static void sendActionBarToAllPlayers(String message, int duration) {
