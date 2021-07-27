@@ -49,7 +49,7 @@ public class Main extends JavaPlugin implements Listener {
                     }
                 }, 0, 40);
             }
-        }.runTaskTimer(this, 0, 20 * 60 * 30);
+        }.runTaskTimer(this, 0, 20 * 60 * 15);
     }
 
 }
