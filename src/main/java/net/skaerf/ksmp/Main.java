@@ -19,6 +19,7 @@ public class Main extends JavaPlugin implements Listener {
     public void onEnable() {
         runnable();
         ActionBar.enableThings();
+        this.saveConfig();
         getServer().getPluginManager().registerEvents(this, this);
         System.out.println("[KSMP] Base plugin initialising");
     }
